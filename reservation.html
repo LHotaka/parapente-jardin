@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio sesion</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'><link rel="stylesheet" href="assets/css/styleres.css">
+
+</head>
+<body>
+<div class="container">
+	<div class="screen">
+		<div class="screen__content">
+			<form action="reservation.php" method="POST" class="login" >
+				<div class="login__field">
+					<i class="fa fa-id-card"></i>
+					<input type="text" name="cedula" class="login__input" placeholder="Cedula">
+				</div>
+				<div class="login__field">
+					<i class="fa fa-user-circle"></i>
+					<input type="text" name="nombre" class="login__input" placeholder="nombre">
+				</div>
+                <div class="login__field">
+					<i class="fa fa-envelope"></i>
+					<input type="email" name="correo" class="login__input" placeholder="Correo">
+				</div>
+                <div class="login__field">
+					<i class="fa fa-users"></i>
+					<input type="text" name="cantidad" class="login__input" placeholder="cantidad de personas">
+				</div>
+				<div class="login__field">
+					<i class="fa fa-calendar"></i>
+					<input type="date" name="fecha" class="login__input" placeholder="Fecha">
+				</div>
+				<button class="button login__submit">
+					<span class="button__text">¡Reserva!</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>				
+			</form>
+			<div class="social-login">
+				<h3>Nuestras redes sociales</h3>
+				<div class="social-icons">
+					<a href="#" class="social-login__icon fab fa-instagram"></a>
+					<a href="#" class="social-login__icon fab fa-facebook"></a>
+					<a href="#" class="social-login__icon fab fa-twitter"></a>
+				</div>
+			</div>
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>		
+	</div>
+</div>
+</body>
+</html>
